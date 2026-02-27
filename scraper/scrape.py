@@ -24,8 +24,9 @@ COLLEGES = [
     {
         "id": "cs",
         "name": "计算机科学与技术学院",
-        "list_url": "http://cspo.zju.edu.cn/86671/list.htm",
-        "base_url": "http://cspo.zju.edu.cn",
+        # cspo.zju.edu.cn 为校内网（境外不可达），改用公开外网的新闻动态列表
+        "list_url": "http://www.cs.zju.edu.cn/csen/xwdt_38564/list.htm",
+        "base_url": "http://www.cs.zju.edu.cn",
     },
     {
         "id": "ckc",
