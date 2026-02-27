@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-27 16:12:38 CST",
+  "updated_at": "2026-02-27 16:28:41 CST",
   "colleges": [
     {
       "id": "sis",
@@ -293,7 +293,8 @@
           "url": "http://www.cs.zju.edu.cn/csen/2025/0923/c38564a3084867/page.htm",
           "date": ""
         }
-      ]
+      ],
+      "note": "⚠️ WebVPN 不可用，当前显示公开新闻（非通知公告）"
     },
     {
       "id": "ckc",
