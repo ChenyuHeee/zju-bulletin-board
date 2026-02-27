@@ -93,45 +93,61 @@ def _build_webvpn_url(original_url: str) -> str:
 
 
 def _webvpn_login(username: str, password: str) -> requests.Session:
-    """Authenticate against ZJU CAS, return a session with WebVPN cookies."""
+    """
+    Authenticate directly against WebVPN's own /do-login endpoint.
+
+    WebVPN (webvpn.zju.edu.cn) has its own login page and does NOT redirect
+    to the campus CAS (ids.zju.edu.cn) from the client side – the CAS
+    interaction happens server-to-server. This makes it accessible from
+    outside the campus network.
+
+    Flow:
+      1. GET  https://webvpn.zju.edu.cn/login  → grab _csrf token
+      2. POST https://webvpn.zju.edu.cn/do-login  with credentials + _csrf
+      3. On success the response sets a session cookie
+    """
     sess = requests.Session()
     sess.headers.update(HEADERS)
 
-    cas_url = (
-        "https://ids.zju.edu.cn/cas/login"
-        "?service=https://webvpn.zju.edu.cn/wengine-vpn/cas"
-    )
-    log.info("  → Fetching CAS login page …")
-    resp = sess.get(cas_url, timeout=20, allow_redirects=True)
+    login_page_url = "https://webvpn.zju.edu.cn/login"
+    log.info("  → Fetching WebVPN login page …")
+    resp = sess.get(login_page_url, timeout=20, allow_redirects=True)
     resp.raise_for_status()
 
     soup = BeautifulSoup(resp.text, "html.parser")
-    form = soup.find("form", id="cas-form") or soup.find("form")
-    if not form:
-        raise RuntimeError("CAS login form not found")
 
-    action = form.get("action") or cas_url
-    if not action.startswith("http"):
-        action = "https://ids.zju.edu.cn" + action
+    # Extract _csrf from hidden input
+    csrf_input = soup.find("input", {"name": "_csrf"})
+    if not csrf_input:
+        raise RuntimeError("_csrf token not found in WebVPN login page")
+    csrf = csrf_input.get("value", "")
 
-    payload: dict[str, str] = {}
-    for inp in form.find_all("input"):
-        n, v = inp.get("name", ""), inp.get("value", "")
-        if n:
-            payload[n] = v
-    payload["username"] = username
-    payload["password"] = password
-    payload.setdefault("_eventId", "submit")
+    payload = {
+        "_csrf": csrf,
+        "auth_type": "local",
+        "username": username,
+        "password": password,
+    }
 
-    log.info("  → Submitting credentials …")
-    resp = sess.post(action, data=payload, timeout=20, allow_redirects=True)
+    log.info("  → Submitting credentials to WebVPN /do-login …")
+    resp = sess.post(
+        "https://webvpn.zju.edu.cn/do-login",
+        data=payload,
+        timeout=20,
+        allow_redirects=True,
+    )
     resp.raise_for_status()
 
-    if "ids.zju.edu.cn/cas/login" in resp.url:
-        err_soup = BeautifulSoup(resp.text, "html.parser")
-        err_el = err_soup.find(class_=re.compile(r"errors?|message|alert", re.I))
-        msg = err_el.get_text(strip=True) if err_el else "check credentials"
-        raise RuntimeError(f"CAS rejected login: {msg}")
+    # /do-login returns JSON: {"e":0,"m":"","d":...} on success
+    try:
+        result = resp.json()
+        if result.get("e", -1) != 0:
+            msg = result.get("m") or "unknown error"
+            raise RuntimeError(f"WebVPN /do-login rejected: {msg}")
+    except ValueError:
+        # Not JSON – check if we got redirected away from login page
+        if "webvpn.zju.edu.cn/login" in resp.url:
+            raise RuntimeError("WebVPN login failed (still on login page)")
 
     log.info("  → WebVPN login succeeded ✓")
     time.sleep(1)
@@ -183,7 +199,10 @@ def fetch_page(
         try:
             resp = sess.get(fetch_url, timeout=25)
             resp.encoding = resp.apparent_encoding or "utf-8"
-            if via_webvpn and "ids.zju.edu.cn/cas/login" in resp.url:
+            if via_webvpn and (
+                "webvpn.zju.edu.cn/login" in resp.url
+                or "ids.zju.edu.cn/cas/login" in resp.url
+            ):
                 raise RuntimeError("WebVPN session expired")
             return BeautifulSoup(resp.text, "html.parser")
         except RuntimeError:
