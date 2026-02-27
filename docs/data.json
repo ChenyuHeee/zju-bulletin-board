@@ -1,0 +1,23 @@
+{
+  "updated_at": "尚未抓取，请等待 GitHub Actions 首次运行",
+  "colleges": [
+    {
+      "id": "sis",
+      "name": "外国语学院",
+      "source_url": "http://www.sis.zju.edu.cn/sischinese/12577/list.htm",
+      "items": []
+    },
+    {
+      "id": "cs",
+      "name": "计算机科学与技术学院",
+      "source_url": "http://cspo.zju.edu.cn/86671/list.htm",
+      "items": []
+    },
+    {
+      "id": "ckc",
+      "name": "竺可桢学院",
+      "source_url": "http://ckc.zju.edu.cn/54005/list.htm",
+      "items": []
+    }
+  ]
+}

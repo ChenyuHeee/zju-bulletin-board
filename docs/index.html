@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>浙江大学学院通知公告聚合</title>
+  <style>
+    /* ── Reset & base ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --zju-blue:   #003478;
+      --zju-mid:    #0050a0;
+      --zju-light:  #e8f0fb;
+      --zju-red:    #9e1b32;
+      --accent:     #f0a500;
+      --text:       #1a1a2e;
+      --muted:      #6b7280;
+      --border:     #dde3ed;
+      --bg:         #f5f7fb;
+      --card-bg:    #ffffff;
+      --radius:     10px;
+    }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── Header ──────────────────────────────────────────────── */
+    header {
+      background: linear-gradient(135deg, var(--zju-blue) 0%, var(--zju-mid) 100%);
+      color: #fff;
+      padding: 28px 24px 24px;
+      text-align: center;
+      box-shadow: 0 2px 12px rgba(0,52,120,.25);
+    }
+    .header-badge {
+      display: inline-block;
+      background: rgba(255,255,255,.15);
+      border: 1px solid rgba(255,255,255,.3);
+      border-radius: 20px;
+      font-size: 11px;
+      letter-spacing: .08em;
+      padding: 3px 10px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    header h1 {
+      font-size: clamp(1.4rem, 4vw, 2rem);
+      font-weight: 700;
+      letter-spacing: .02em;
+    }
+    header p.subtitle {
+      margin-top: 6px;
+      font-size: .9rem;
+      opacity: .75;
+    }
+    .updated-at {
+      margin-top: 10px;
+      font-size: .78rem;
+      opacity: .6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+    .dot {
+      width: 7px; height: 7px;
+      background: var(--accent);
+      border-radius: 50%;
+      display: inline-block;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%,100% { opacity: 1; }
+      50%      { opacity: .3; }
+    }
+
+    /* ── Main container ───────────────────────────────────────── */
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 28px 16px 60px;
+    }
+
+    /* ── Tabs ─────────────────────────────────────────────────── */
+    .tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .tab-btn {
+      padding: 8px 18px;
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--card-bg);
+      cursor: pointer;
+      font-size: .9rem;
+      font-weight: 500;
+      color: var(--muted);
+      transition: all .18s;
+    }
+    .tab-btn:hover { border-color: var(--zju-mid); color: var(--zju-mid); }
+    .tab-btn.active {
+      background: var(--zju-blue);
+      border-color: var(--zju-blue);
+      color: #fff;
+    }
+
+    /* ── Card ─────────────────────────────────────────────────── */
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: 0 1px 6px rgba(0,0,0,.07);
+      overflow: hidden;
+      display: none;
+    }
+    .card.active { display: block; }
+
+    .card-header {
+      padding: 14px 20px;
+      background: var(--zju-light);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border);
+    }
+    .card-header h2 { font-size: 1rem; color: var(--zju-blue); font-weight: 600; }
+    .card-header a {
+      font-size: .78rem;
+      color: var(--zju-mid);
+      text-decoration: none;
+    }
+    .card-header a:hover { text-decoration: underline; }
+
+    /* ── Notice list ──────────────────────────────────────────── */
+    .notice-list { list-style: none; }
+    .notice-item {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 20px;
+      border-bottom: 1px solid var(--border);
+      transition: background .12s;
+    }
+    .notice-item:last-child { border-bottom: none; }
+    .notice-item:hover { background: var(--zju-light); }
+
+    .notice-title {
+      flex: 1;
+      font-size: .9rem;
+      line-height: 1.5;
+    }
+    .notice-title a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .notice-title a:hover { color: var(--zju-mid); text-decoration: underline; }
+
+    /* New badge: items within last 7 days */
+    .badge-new {
+      display: inline-block;
+      font-size: .65rem;
+      font-weight: 700;
+      color: #fff;
+      background: var(--zju-red);
+      border-radius: 3px;
+      padding: 1px 5px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+
+    .notice-date {
+      white-space: nowrap;
+      font-size: .78rem;
+      color: var(--muted);
+    }
+
+    /* ── Empty / error / loading ──────────────────────────────── */
+    .empty {
+      text-align: center;
+      padding: 48px 16px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    .spinner {
+      width: 36px; height: 36px;
+      border: 3px solid var(--border);
+      border-top-color: var(--zju-blue);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+      margin: 40px auto 12px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Footer ───────────────────────────────────────────────── */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: .78rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-badge">Zhejiang University</div>
+  <h1>浙江大学学院通知公告聚合</h1>
+  <p class="subtitle">每日自动抓取 · 外国语学院 · 计算机科学与技术学院 · 竺可桢学院</p>
+  <div class="updated-at" id="updated-at">
+    <span class="dot"></span>
+    <span id="update-text">加载中…</span>
+  </div>
+</header>
+
+<main>
+  <div class="tabs" id="tabs"></div>
+  <div id="panels"></div>
+</main>
+
+<footer>
+  数据来源：各学院官方网站 ·
+  <a href="https://github.com" target="_blank" id="repo-link">GitHub 仓库</a>
+</footer>
+
+<script>
+(async () => {
+  const tabsEl  = document.getElementById("tabs");
+  const panelsEl = document.getElementById("panels");
+  const updateEl = document.getElementById("update-text");
+
+  // ── Helpers ──────────────────────────────────────────────────
+  function daysSince(dateStr) {
+    if (!dateStr) return Infinity;
+    const d = new Date(dateStr);
+    if (isNaN(d)) return Infinity;
+    return Math.floor((Date.now() - d.getTime()) / 86400000);
+  }
+
+  function renderPanel(college, index) {
+    const card = document.createElement("div");
+    card.className = "card" + (index === 0 ? " active" : "");
+    card.id = "panel-" + college.id;
+
+    const header = `
+      <div class="card-header">
+        <h2>${college.name}</h2>
+        <a href="${college.source_url}" target="_blank" rel="noopener">查看全部通知 →</a>
+      </div>`;
+
+    if (!college.items || college.items.length === 0) {
+      card.innerHTML = header + `<div class="empty">暂无数据</div>`;
+      return card;
+    }
+
+    const rows = college.items.map(item => {
+      const isNew = daysSince(item.date) <= 7;
+      const badge = isNew ? `<span class="badge-new">NEW</span>` : "";
+      return `
+        <li class="notice-item">
+          <span class="notice-title">
+            <a href="${item.url}" target="_blank" rel="noopener">${escHtml(item.title)}</a>
+            ${badge}
+          </span>
+          <span class="notice-date">${item.date || "—"}</span>
+        </li>`;
+    }).join("");
+
+    card.innerHTML = header + `<ul class="notice-list">${rows}</ul>`;
+    return card;
+  }
+
+  function escHtml(str) {
+    return str.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+
+  function renderLoading() {
+    panelsEl.innerHTML = `<div class="card active" style="display:block">
+      <div class="spinner"></div>
+      <div class="empty">正在加载通知数据…</div>
+    </div>`;
+  }
+
+  function renderError(msg) {
+    panelsEl.innerHTML = `<div class="card active" style="display:block">
+      <div class="empty">⚠️ ${msg}</div>
+    </div>`;
+  }
+
+  // ── Tabs logic ────────────────────────────────────────────────
+  function activateTab(id) {
+    tabsEl.querySelectorAll(".tab-btn").forEach(b =>
+      b.classList.toggle("active", b.dataset.id === id));
+    panelsEl.querySelectorAll(".card").forEach(c =>
+      c.classList.toggle("active", c.id === "panel-" + id));
+  }
+
+  // ── Fetch data ────────────────────────────────────────────────
+  renderLoading();
+
+  let data;
+  try {
+    const cacheBust = Date.now(); // avoid browser-cache staleness
+    const res = await fetch(`data.json?v=${cacheBust}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    data = await res.json();
+  } catch (e) {
+    renderError("无法加载数据：" + e.message);
+    updateEl.textContent = "加载失败";
+    return;
+  }
+
+  // Update time display
+  updateEl.textContent = "最后更新：" + (data.updated_at || "未知");
+
+  // Render tabs & panels
+  tabsEl.innerHTML = "";
+  panelsEl.innerHTML = "";
+
+  (data.colleges || []).forEach((college, i) => {
+    // Tab button
+    const btn = document.createElement("button");
+    btn.className = "tab-btn" + (i === 0 ? " active" : "");
+    btn.dataset.id = college.id;
+    btn.textContent = college.name;
+    btn.addEventListener("click", () => activateTab(college.id));
+    tabsEl.appendChild(btn);
+
+    // Panel
+    panelsEl.appendChild(renderPanel(college, i));
+  });
+
+  if (!data.colleges || data.colleges.length === 0) {
+    renderError("暂无学院数据。");
+  }
+})();
+</script>
+</body>
+</html>

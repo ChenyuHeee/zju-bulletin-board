@@ -1,0 +1,44 @@
+name: Daily Scrape
+
+on:
+  schedule:
+    # 每天北京时间 08:00 (UTC 00:00) 自动运行
+    - cron: "0 0 * * *"
+  # 也可以在 GitHub Actions 页面手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write   # 允许将更新后的 data.json 推回仓库
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper/scrape.py
+
+      - name: Commit & push updated data.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data.json
+          # 只有数据真正变化时才提交（避免空提交）
+          if git diff --cached --quiet; then
+            echo "No changes detected, skipping commit."
+          else
+            git commit -m "chore: auto-update bulletin data $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
