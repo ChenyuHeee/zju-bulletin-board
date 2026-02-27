@@ -9,6 +9,9 @@ env/
 # macOS
 .DS_Store
 .AppleDouble
+._*
+.AppleDouble/
+__MACOSX/
 
 # IDE
 .vscode/
