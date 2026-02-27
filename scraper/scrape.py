@@ -138,16 +138,17 @@ def _webvpn_login(username: str, password: str) -> requests.Session:
     )
     resp.raise_for_status()
 
-    # /do-login returns JSON: {"e":0,"m":"","d":...} on success
+    # /do-login returns JSON: {"e":0,"m":"","d":...} on success, {"e":1,"m":"..."} on failure
     try:
         result = resp.json()
+        log.info("  do-login response: e=%s m=%r", result.get("e"), result.get("m"))
         if result.get("e", -1) != 0:
-            msg = result.get("m") or "unknown error"
+            msg = result.get("m") or result.get("d") or f"e={result.get('e')} (full: {result})"
             raise RuntimeError(f"WebVPN /do-login rejected: {msg}")
     except ValueError:
         # Not JSON – check if we got redirected away from login page
-        if "webvpn.zju.edu.cn/login" in resp.url:
-            raise RuntimeError("WebVPN login failed (still on login page)")
+        if "/login" in resp.url:
+            raise RuntimeError(f"WebVPN login failed (url={resp.url}, status={resp.status_code})")
 
     log.info("  → WebVPN login succeeded ✓")
     time.sleep(1)
