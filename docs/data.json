@@ -1,11 +1,152 @@
 {
-  "updated_at": "尚未抓取，请等待 GitHub Actions 首次运行",
+  "updated_at": "2026-02-27 16:04:40 CST",
   "colleges": [
     {
       "id": "sis",
       "name": "外国语学院",
       "source_url": "http://www.sis.zju.edu.cn/sischinese/12577/list.htm",
-      "items": []
+      "items": [
+        {
+          "title": "关于2024级涉外法治（英语-法学）双学士学位项目学生增补选拔的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0213/c12577a3134640/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于公示教育部第二批“新时代系列”教材建设项目拟推荐名单的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0129/c12577a3131970/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于本科生2025-2026学年春夏学期报到注册的温馨提示",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0119/c12577a3129107/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于第二批“十四五”普通高等教育本科省级和国家级规划教材申报推荐结果公示的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0121/c12577a3129951/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于公布外国语学院2025-2026学年春夏学期转专业容量的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0112/c12577a3127625/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于公示2025-2026学年春夏学期本科课程教材使用情况的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0108/c12577a3127111/page.htm",
+          "date": ""
+        },
+        {
+          "title": "2022级英语专业本科毕业论文开题报告答辩分组安排",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/1230/c12577a3124215/page.htm",
+          "date": ""
+        },
+        {
+          "title": "2026年全国大学生英语竞赛（NECCS）报名通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/1225/c12577a3123331/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于公示2025年度教师本科教学工作考核等级的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/1225/c12577a3123274/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于“数字赋能外语课程思政教育的教学设计与创新实践”专题报告的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/1223/c12577a3122431/page.htm",
+          "date": ""
+        },
+        {
+          "title": "外国语学院关于做好2026届本科毕业论文工作的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/1030/c12577a3100754/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于领取2025年6月大学外语四六级考试成绩单的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/1016/c12577a3092562/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于2026届本科毕业生信息核对及图像拍摄的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/1013/c12577a3091129/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于公示外国语学院2025年度本科生科研创新奖及本科生科研创新指导教师奖名单的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/1013/c12577a3091099/page.htm",
+          "date": ""
+        },
+        {
+          "title": "外国语学院关于2024-2025年度本科生科研创新奖及本科生科研创新指导教师奖评选的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0925/c12577a3085534/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于举行第三届“外研社·国才杯”“理解当代中国”浙江大学大学生外语能力大赛英语笔译赛道和口...",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0920/c12577a3083778/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于2025-2026学年秋冬学期本科生转专业拟接收公示",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0918/c12577a3083007/page.htm",
+          "date": ""
+        },
+        {
+          "title": "外国语学院2026年推荐免试研究生初选名单公示（更新）",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0911/c12577a3080080/page.htm",
+          "date": ""
+        },
+        {
+          "title": "外国语学院2026年推荐免试研究生综合成绩及各专业推免名单公示",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0910/c12577a3079452/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于2026届本科生毕业自审的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0909/c12577a3079053/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于公示国精班专项推免素质赋分学生名单的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0909/c12577a3079045/page.htm",
+          "date": ""
+        },
+        {
+          "title": "外国语学院2022级学生素质评价成绩公示",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0909/c12577a3078832/page.htm",
+          "date": ""
+        },
+        {
+          "title": "外国语学院2026年本科推免名额公示",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0908/c12577a3078595/page.htm",
+          "date": ""
+        },
+        {
+          "title": "外国语学院2022级学生学业成绩公示",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0904/c12577a3077603/page.htm",
+          "date": ""
+        },
+        {
+          "title": "外国语学院关于涉外法治（英语-法学）双学士学位项目 学生增补选拔的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0827/c12577a3076365/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于2026年推荐优秀应届本科毕业生免试攻读研究生工作安排的通知（更新）",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0828/c12577a3076494/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于公示2025级国精班荣誉班拟录取名单的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0825/c12577a3076108/page.htm",
+          "date": ""
+        },
+        {
+          "title": "外国语学院关于2025级本科生主修专业预确认名单公示的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0824/c12577a3075977/page.htm",
+          "date": ""
+        }
+      ]
     },
     {
       "id": "cs",
@@ -17,7 +158,138 @@
       "id": "ckc",
       "name": "竺可桢学院",
       "source_url": "http://ckc.zju.edu.cn/54005/list.htm",
-      "items": []
+      "items": [
+        {
+          "title": "【毕业预审】关于2022级竺可桢学院学生毕业资格预审的通知",
+          "url": "http://ckc.zju.edu.cn/2025/0922/c54005a3084381/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院2025级新生选拔安排",
+          "url": "http://ckc.zju.edu.cn/2025/0813/c54005a3074213/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院混合班2025年招生简章",
+          "url": "http://ckc.zju.edu.cn/2025/0704/c54005a3067538/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院求是科学班2025年招生简章",
+          "url": "http://ckc.zju.edu.cn/2025/0704/c54005a3067504/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院新农科实验班2025年招生简章",
+          "url": "http://ckc.zju.edu.cn/2025/0725/c54005a3071569/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院2024级新生选拔安排",
+          "url": "http://ckc.zju.edu.cn/2024/0809/c54005a2952573/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院混合班2024年招生简章",
+          "url": "http://ckc.zju.edu.cn/2024/0715/c54005a2946245/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院求是科学班2024年招生简章",
+          "url": "http://ckc.zju.edu.cn/2024/0715/c54005a2946246/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院新农科实验班（本博贯通）2024年招生简章",
+          "url": "http://ckc.zju.edu.cn/2024/0715/c54005a2946247/page.htm",
+          "date": ""
+        },
+        {
+          "title": "竺可桢学院关于举办“典学求真，科学名世”-全国高校荣誉学院学生科研创新大赛的通知",
+          "url": "http://ckc.zju.edu.cn/2024/0724/c54005a2949059/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院2023级新生选拔安排",
+          "url": "http://ckc.zju.edu.cn/2023/0817/c54005a2790944/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院新农科实验班（本博贯通）2023年招生简章",
+          "url": "http://ckc.zju.edu.cn/2023/0731/c54005a2787036/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院求是科学班2023年招生简章",
+          "url": "http://ckc.zju.edu.cn/2023/0731/c54005a2787034/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院混合班2023年招生简章",
+          "url": "http://ckc.zju.edu.cn/2023/0731/c54005a2787033/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于竺可桢学院2021级创新与创业管理强化班招生通知",
+          "url": "http://ckc.zju.edu.cn/2022/1028/c54005a2660995/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于竺可桢学院2022年深度科研训练计划之灵均量化项目开放申请的通知",
+          "url": "http://ckc.zju.edu.cn/2022/0929/c54005a2645064/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于举办浙江大学2022级本科学生专业节的通知",
+          "url": "http://bksy.zju.edu.cn/2022/0920/c28418a2633768/page.htm",
+          "date": ""
+        },
+        {
+          "title": "2022级竺可桢学院学生选拔安排通知",
+          "url": "http://ckc.zju.edu.cn/2022/0812/c54005a2609018/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学智慧能源班（荣誉项目）2022年招生简章",
+          "url": "http://www.doe.zju.edu.cn/2022/0716/c23937a2604545/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院求是科学班、应用生物科学（农学试验班）  2022年招生简章",
+          "url": "http://ckc.zju.edu.cn/2022/0725/c54005a2605856/page.htm",
+          "date": ""
+        },
+        {
+          "title": "竺可桢学院关于开展2022年度大学生素质训练计划（SQTP）中期检查的通知",
+          "url": "http://ckc.zju.edu.cn/2022/0719/c54005a2604847/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于竺可桢学院复合型人才培养特色班2022年招生的通知",
+          "url": "http://ckc.zju.edu.cn/2022/0310/c54005a2505445/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于浙江大学晨兴文化中国人才计划选拔的通知",
+          "url": "http://ckc.zju.edu.cn/2022/0309/c54005a2504439/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于竺可桢学院2020级创新与创业管理强化班招生的通知",
+          "url": "http://ckc.zju.edu.cn/2021/1008/c54005a2427994/page.htm",
+          "date": ""
+        },
+        {
+          "title": "2021级竺可桢学院学生选拔安排通知",
+          "url": "http://ckc.zju.edu.cn/2021/0814/c54005a2510310/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院求是科学班、神农班、智慧能源班、公共管理英才班2021年招生简章",
+          "url": "http://ckc.zju.edu.cn/2021/0726/c54005a2510311/page.htm",
+          "date": ""
+        }
+      ]
     }
   ]
 }
