@@ -179,6 +179,16 @@
       color: var(--muted);
     }
 
+    /* ── Note banner ──────────────────────────────────────────── */
+    .note-banner {
+      background: #fff8e1;
+      border-left: 4px solid var(--accent);
+      color: #856404;
+      font-size: .82rem;
+      padding: 9px 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
     /* ── Empty / error / loading ──────────────────────────────── */
     .empty {
       text-align: center;
@@ -251,7 +261,8 @@
       <div class="card-header">
         <h2>${college.name}</h2>
         <a href="${college.source_url}" target="_blank" rel="noopener">查看全部通知 →</a>
-      </div>`;
+      </div>
+      ${college.note ? `<div class="note-banner">${college.note}</div>` : ""}`;
 
     if (!college.items || college.items.length === 0) {
       card.innerHTML = header + `<div class="empty">暂无数据</div>`;

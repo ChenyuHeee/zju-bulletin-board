@@ -29,6 +29,11 @@ jobs:
 
       - name: Run scraper
         run: python scraper/scrape.py
+        env:
+          # Optional: ZJU campus credentials for WebVPN access to intranet notices
+          # Set these as GitHub Repository Secrets (Settings → Secrets → Actions)
+          ZJU_USERNAME: ${{ secrets.ZJU_USERNAME }}
+          ZJU_PASSWORD: ${{ secrets.ZJU_PASSWORD }}
 
       - name: Commit & push updated data.json
         run: |
