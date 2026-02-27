@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-27 16:04:40 CST",
+  "updated_at": "2026-02-27 16:12:38 CST",
   "colleges": [
     {
       "id": "sis",
@@ -152,7 +152,148 @@
       "id": "cs",
       "name": "计算机科学与技术学院",
       "source_url": "http://www.cs.zju.edu.cn/csen/xwdt_38564/list.htm",
-      "items": []
+      "items": [
+        {
+          "title": "研究生导师",
+          "url": "http://www.cs.zju.edu.cn/csen/2021/0915/c27006a2421689/page.htm",
+          "date": ""
+        },
+        {
+          "title": "学院举行科研经费诚信教育警示大会",
+          "url": "http://www.cs.zju.edu.cn/csen/2026/0127/c38564a3131600/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学计算机学院与埃及Blue Shift公司签约合作 探索学科特色科教输出新模式",
+          "url": "http://www.cs.zju.edu.cn/csen/2026/0119/c38564a3129333/page.htm",
+          "date": ""
+        },
+        {
+          "title": "学院2026年退休教师新春团拜会顺利举行",
+          "url": "http://www.cs.zju.edu.cn/csen/2026/0109/c38564a3127161/page.htm",
+          "date": ""
+        },
+        {
+          "title": "我院两项成果荣获教育部科学研究优秀成果奖一等奖",
+          "url": "http://www.cs.zju.edu.cn/csen/2026/0106/c38564a3126417/page.htm",
+          "date": ""
+        },
+        {
+          "title": "深化前沿技术研发布局 浙江大学与康迪科技共建智能机器人联合研发中心",
+          "url": "http://www.cs.zju.edu.cn/csen/2026/0105/c38564a3125830/page.htm",
+          "date": ""
+        },
+        {
+          "title": "学院第七届教职工代表大会、工会会员代表大会顺利召开",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1228/c38564a3123722/page.htm",
+          "date": ""
+        },
+        {
+          "title": "深耕导学之道，涵养育人温度——2025年度计算机科学与技术学院求是导师学校暨班主任、德育导师培训会顺利举行",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1227/c38564a3123704/page.htm",
+          "date": ""
+        },
+        {
+          "title": "喜报| 学院首次在计算机系统顶会SC获得最佳学生论文提名",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1223/c38564a3122624/page.htm",
+          "date": ""
+        },
+        {
+          "title": "全球冠军！浙大、交大、复旦联合战队*0xA勇夺BlackHat MEA CTF 2025亚洲首冠",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1222/c38564a3122008/page.htm",
+          "date": ""
+        },
+        {
+          "title": "智联未来！这场盛会点亮脑机融合新坐标",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1222/c38564a3121987/page.htm",
+          "date": ""
+        },
+        {
+          "title": "计算机学院“机关有约&相约则通” 系列活动（第11期）顺利举行",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1209/c38564a3117033/page.htm",
+          "date": ""
+        },
+        {
+          "title": "祝贺！我院唐华锦、杨易教授新当选IEEE Fellow！",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1205/c38564a3116160/page.htm",
+          "date": ""
+        },
+        {
+          "title": "​诚信筑基固根本，创新驱动新征程——计算机科学与技术学院全院党员2025年第二次集中教育培训暨全院科研诚信教育顺利举行",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1204/c38564a3115904/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学超算队荣获 SC25-IndySCC 国际大学生超级计算机竞赛冠军",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1205/c38564a3116266/page.htm",
+          "date": ""
+        },
+        {
+          "title": "深秋临安行，共赴诗意之约——计算机学院组织教职工秋游活动",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1127/c38564a3110899/page.htm",
+          "date": ""
+        },
+        {
+          "title": "共绘几何建模与仿真新蓝图—SPM 2025国际学术会议成功举行",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1126/c38564a3110344/page.htm",
+          "date": ""
+        },
+        {
+          "title": "计算机学院成功举办第三期“图灵讲坛”",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1126/c38564a3110336/page.htm",
+          "date": ""
+        },
+        {
+          "title": "聚焦“人工智能赋能产业升级” 浙江大学与国联集团共建人工智能联合研发中心",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1126/c38564a3110335/page.htm",
+          "date": ""
+        },
+        {
+          "title": "聚焦“AI for Data” 蚂蚁集团与浙江大学共建联合研究中心",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1113/c38564a3105579/page.htm",
+          "date": ""
+        },
+        {
+          "title": "任奎：筑牢AI安全基石 构建阶段是源头治理核心环节",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1107/c38564a3103887/page.htm",
+          "date": ""
+        },
+        {
+          "title": "情暖金秋 爱在重阳——计算机学院退休支部组织重阳节活动",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1106/c38564a3103274/page.htm",
+          "date": ""
+        },
+        {
+          "title": "观点·计 | “智能向善”：人工智能创新发展的理与路",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1107/c38564a3103868/page.htm",
+          "date": ""
+        },
+        {
+          "title": "十年创新路，智启未来篇——第十届“中国高校计算机大赛-移动应用创新赛”圆满举行",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1104/c38564a3102415/page.htm",
+          "date": ""
+        },
+        {
+          "title": "中共浙江大学第十五届委员会第五轮巡视第二巡视组巡视计算机科学与技术学院党委工作动员会召开",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/0928/c38564a3086858/page.htm",
+          "date": ""
+        },
+        {
+          "title": "计算机学院“机关有约&相约则通”系列活动（第十期）顺利举行",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/0929/c38564a3087643/page.htm",
+          "date": ""
+        },
+        {
+          "title": "学院赴新疆塔里木大学开展对口支援交流 共绘合作新篇章",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/0924/c38564a3085050/page.htm",
+          "date": ""
+        },
+        {
+          "title": "计算机学院退休老师“庆三节”活动温情举办",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/0923/c38564a3084867/page.htm",
+          "date": ""
+        }
+      ]
     },
     {
       "id": "ckc",
