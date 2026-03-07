@@ -1,11 +1,16 @@
 {
-  "updated_at": "2026-03-06 08:17:11 CST",
+  "updated_at": "2026-03-07 08:11:13 CST",
   "colleges": [
     {
       "id": "sis",
       "name": "外国语学院",
       "source_url": "http://www.sis.zju.edu.cn/sischinese/12577/list.htm",
       "items": [
+        {
+          "title": "关于2025级涉外法治（英语-法学）双学士学位项目学生增补选拔的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0306/c12577a3137959/page.htm",
+          "date": ""
+        },
         {
           "title": "关于2024级涉外法治（英语-法学）双学士学位项目学生增补选拔的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0213/c12577a3134640/page.htm",
@@ -139,11 +144,6 @@
         {
           "title": "关于公示2025级国精班荣誉班拟录取名单的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2025/0825/c12577a3076108/page.htm",
-          "date": ""
-        },
-        {
-          "title": "外国语学院关于2025级本科生主修专业预确认名单公示的通知",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0824/c12577a3075977/page.htm",
           "date": ""
         }
       ]
