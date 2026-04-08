@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-07 08:16:03 CST",
+  "updated_at": "2026-04-08 08:16:54 CST",
   "colleges": [
     {
       "id": "sis",
@@ -159,6 +159,11 @@
           "date": ""
         },
         {
+          "title": "花漾柯桥，烟火安昌——计算机学院工会组织绍兴瓜渚湖、安昌古镇春游",
+          "url": "http://www.cs.zju.edu.cn/csen/2026/0403/c38564a3148131/page.htm",
+          "date": ""
+        },
+        {
           "title": "喜报 | 我院李玺教授荣获2025年度华为公司优秀技术合作项目奖",
           "url": "http://www.cs.zju.edu.cn/csen/2026/0313/c38564a3140250/page.htm",
           "date": ""
@@ -286,11 +291,6 @@
         {
           "title": "观点·计 | “智能向善”：人工智能创新发展的理与路",
           "url": "http://www.cs.zju.edu.cn/csen/2025/1107/c38564a3103868/page.htm",
-          "date": ""
-        },
-        {
-          "title": "十年创新路，智启未来篇——第十届“中国高校计算机大赛-移动应用创新赛”圆满举行",
-          "url": "http://www.cs.zju.edu.cn/csen/2025/1104/c38564a3102415/page.htm",
           "date": ""
         }
       ],
