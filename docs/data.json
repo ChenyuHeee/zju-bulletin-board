@@ -1,11 +1,21 @@
 {
-  "updated_at": "2026-04-13 08:17:26 CST",
+  "updated_at": "2026-04-14 08:20:20 CST",
   "colleges": [
     {
       "id": "sis",
       "name": "外国语学院",
       "source_url": "http://www.sis.zju.edu.cn/sischinese/12577/list.htm",
       "items": [
+        {
+          "title": "关于2026年外语类保送生双学士学位项目/联培项目拟录取名单公示的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0413/c12577a3150394/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于举行第二十一届浙江大学大学生英语演讲竞赛的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0413/c12577a3150334/page.htm",
+          "date": ""
+        },
         {
           "title": "关于申报浙江大学本科生未来学术新星项目的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0408/c12577a3149211/page.htm",
@@ -134,16 +144,6 @@
         {
           "title": "关于2026届本科生毕业自审的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2025/0909/c12577a3079053/page.htm",
-          "date": ""
-        },
-        {
-          "title": "关于公示国精班专项推免素质赋分学生名单的通知",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0909/c12577a3079045/page.htm",
-          "date": ""
-        },
-        {
-          "title": "外国语学院2022级学生素质评价成绩公示",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0909/c12577a3078832/page.htm",
           "date": ""
         }
       ]
