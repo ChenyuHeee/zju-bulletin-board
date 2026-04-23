@@ -1,11 +1,21 @@
 {
-  "updated_at": "2026-04-22 08:16:49 CST",
+  "updated_at": "2026-04-23 08:22:14 CST",
   "colleges": [
     {
       "id": "sis",
       "name": "外国语学院",
       "source_url": "http://www.sis.zju.edu.cn/sischinese/12577/list.htm",
       "items": [
+        {
+          "title": "关于外国语学院第六届本科生学术创新大会专题报告“从初稿到录用：期刊主编谈学术写作与发表”的...",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0422/c12577a3154687/page.htm",
+          "date": ""
+        },
+        {
+          "title": "关于外国语学院教师发展中心系列讲座“生成式人工智能赋能外语教育前沿探索”的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0422/c12577a3154675/page.htm",
+          "date": ""
+        },
         {
           "title": "关于2026年外语类保送生主修专业预确认（零起点学生） 名单公示的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0420/c12577a3153614/page.htm",
@@ -134,16 +144,6 @@
         {
           "title": "关于2025-2026学年秋冬学期本科生转专业拟接收公示",
           "url": "http://www.sis.zju.edu.cn/sischinese/2025/0918/c12577a3083007/page.htm",
-          "date": ""
-        },
-        {
-          "title": "外国语学院2026年推荐免试研究生初选名单公示（更新）",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0911/c12577a3080080/page.htm",
-          "date": ""
-        },
-        {
-          "title": "外国语学院2026年推荐免试研究生综合成绩及各专业推免名单公示",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0910/c12577a3079452/page.htm",
           "date": ""
         }
       ]
