@@ -1,11 +1,16 @@
 {
-  "updated_at": "2026-04-27 08:20:18 CST",
+  "updated_at": "2026-04-28 08:23:49 CST",
   "colleges": [
     {
       "id": "sis",
       "name": "外国语学院",
       "source_url": "http://www.sis.zju.edu.cn/sischinese/12577/list.htm",
       "items": [
+        {
+          "title": "关于公示外国语学院2026年度本科生科研训练立项等级的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0427/c12577a3156185/page.htm",
+          "date": ""
+        },
         {
           "title": "外国语学院关于本科生未来学术新星项目推荐公示",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0424/c12577a3155935/page.htm",
@@ -140,11 +145,6 @@
           "title": "外国语学院关于2024-2025年度本科生科研创新奖及本科生科研创新指导教师奖评选的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2025/0925/c12577a3085534/page.htm",
           "date": ""
-        },
-        {
-          "title": "关于举行第三届“外研社·国才杯”“理解当代中国”浙江大学大学生外语能力大赛英语笔译赛道和口...",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2025/0920/c12577a3083778/page.htm",
-          "date": ""
         }
       ]
     },
@@ -156,6 +156,11 @@
         {
           "title": "研究生导师",
           "url": "http://www.cs.zju.edu.cn/csen/2021/0915/c27006a2421689/page.htm",
+          "date": ""
+        },
+        {
+          "title": "香港科技大学代表团访问浙江大学计算机学院",
+          "url": "http://www.cs.zju.edu.cn/csen/2026/0427/c38564a3156069/page.htm",
           "date": ""
         },
         {
