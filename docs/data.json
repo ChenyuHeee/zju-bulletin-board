@@ -1,11 +1,16 @@
 {
-  "updated_at": "2026-05-09 08:25:22 CST",
+  "updated_at": "2026-05-10 08:24:49 CST",
   "colleges": [
     {
       "id": "sis",
       "name": "外国语学院",
       "source_url": "http://www.sis.zju.edu.cn/sischinese/12577/list.htm",
       "items": [
+        {
+          "title": "关于公布2026年外语类保送生主修专业预确认名单的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0509/c12577a3160472/page.htm",
+          "date": ""
+        },
         {
           "title": "关于领取2025年12月大学外语四六级考试成绩单的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0508/c12577a3160089/page.htm",
@@ -140,11 +145,6 @@
           "title": "外国语学院关于做好2026届本科毕业论文工作的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2025/1030/c12577a3100754/page.htm",
           "date": ""
-        },
-        {
-          "title": "关于领取2025年6月大学外语四六级考试成绩单的通知",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2025/1016/c12577a3092562/page.htm",
-          "date": ""
         }
       ]
     },
@@ -156,11 +156,6 @@
         {
           "title": "研究生导师",
           "url": "http://www.cs.zju.edu.cn/csen/2021/0915/c27006a2421689/page.htm",
-          "date": ""
-        },
-        {
-          "title": "计算机科学与技术学院召开干部宣布会",
-          "url": "http://www.cs.zju.edu.cn/csen/2026/0508/c38564a3159833/page.htm",
           "date": ""
         },
         {
@@ -296,6 +291,11 @@
         {
           "title": "聚焦“人工智能赋能产业升级” 浙江大学与国联集团共建人工智能联合研发中心",
           "url": "http://www.cs.zju.edu.cn/csen/2025/1126/c38564a3110335/page.htm",
+          "date": ""
+        },
+        {
+          "title": "聚焦“AI for Data” 蚂蚁集团与浙江大学共建联合研究中心",
+          "url": "http://www.cs.zju.edu.cn/csen/2025/1113/c38564a3105579/page.htm",
           "date": ""
         }
       ],
