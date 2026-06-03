@@ -1,11 +1,16 @@
 {
-  "updated_at": "2026-06-02 08:35:38 CST",
+  "updated_at": "2026-06-03 08:40:26 CST",
   "colleges": [
     {
       "id": "sis",
       "name": "外国语学院",
       "source_url": "http://www.sis.zju.edu.cn/sischinese/12577/list.htm",
       "items": [
+        {
+          "title": "关于2026届本科毕业论文信息核对的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0528/c12577a3167623/page.htm",
+          "date": ""
+        },
         {
           "title": "外国语学院关于组织开展本科生2026年本科教学实习工作的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0525/c12577a3166254/page.htm",
@@ -139,11 +144,6 @@
         {
           "title": "2022级英语专业本科毕业论文开题报告答辩分组安排",
           "url": "http://www.sis.zju.edu.cn/sischinese/2025/1230/c12577a3124215/page.htm",
-          "date": ""
-        },
-        {
-          "title": "2026年全国大学生英语竞赛（NECCS）报名通知",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2025/1225/c12577a3123331/page.htm",
           "date": ""
         }
       ]
