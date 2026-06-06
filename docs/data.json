@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05 08:33:05 CST",
+  "updated_at": "2026-06-06 08:31:05 CST",
   "colleges": [
     {
       "id": "sis",
@@ -14,6 +14,11 @@
         {
           "title": "关于2026届本科毕业论文信息核对的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0528/c12577a3167623/page.htm",
+          "date": ""
+        },
+        {
+          "title": "外国语学院2026届本科生本科毕业论文定稿（终稿）上交通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0528/c12577a3167603/page.htm",
           "date": ""
         },
         {
@@ -139,11 +144,6 @@
         {
           "title": "关于公布外国语学院2025-2026学年春夏学期转专业容量的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0112/c12577a3127625/page.htm",
-          "date": ""
-        },
-        {
-          "title": "关于公示2025-2026学年春夏学期本科课程教材使用情况的通知",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0108/c12577a3127111/page.htm",
           "date": ""
         }
       ]
