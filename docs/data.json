@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08 08:33:28 CST",
+  "updated_at": "2026-06-09 08:27:54 CST",
   "colleges": [
     {
       "id": "sis",
@@ -159,6 +159,11 @@
           "date": ""
         },
         {
+          "title": "怀念 | 浙江大学计算机学院举行何志均先生逝世十周年纪念活动",
+          "url": "http://www.cs.zju.edu.cn/csen/2026/0603/c38564a3171846/page.htm",
+          "date": ""
+        },
+        {
           "title": "香港科技大学代表团访问浙江大学计算机学院",
           "url": "http://www.cs.zju.edu.cn/csen/2026/0427/c38564a3156069/page.htm",
           "date": ""
@@ -271,11 +276,6 @@
         {
           "title": "浙江大学超算队荣获 SC25-IndySCC 国际大学生超级计算机竞赛冠军",
           "url": "http://www.cs.zju.edu.cn/csen/2025/1205/c38564a3116266/page.htm",
-          "date": ""
-        },
-        {
-          "title": "深秋临安行，共赴诗意之约——计算机学院组织教职工秋游活动",
-          "url": "http://www.cs.zju.edu.cn/csen/2025/1127/c38564a3110899/page.htm",
           "date": ""
         }
       ],
