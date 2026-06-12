@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11 08:35:56 CST",
+  "updated_at": "2026-06-12 08:36:23 CST",
   "colleges": [
     {
       "id": "sis",
@@ -159,6 +159,11 @@
           "date": ""
         },
         {
+          "title": "计算机学院举行2025级本科生入院仪式",
+          "url": "http://www.cs.zju.edu.cn/csen/2026/0611/c38564a3177609/page.htm",
+          "date": ""
+        },
+        {
           "title": "怀念 | 浙江大学计算机学院举行何志均先生逝世十周年纪念活动",
           "url": "http://www.cs.zju.edu.cn/csen/2026/0603/c38564a3171846/page.htm",
           "date": ""
@@ -271,11 +276,6 @@
         {
           "title": "​诚信筑基固根本，创新驱动新征程——计算机科学与技术学院全院党员2025年第二次集中教育培训暨全院科研诚信教育顺利举行",
           "url": "http://www.cs.zju.edu.cn/csen/2025/1204/c38564a3115904/page.htm",
-          "date": ""
-        },
-        {
-          "title": "浙江大学超算队荣获 SC25-IndySCC 国际大学生超级计算机竞赛冠军",
-          "url": "http://www.cs.zju.edu.cn/csen/2025/1205/c38564a3116266/page.htm",
           "date": ""
         }
       ],
