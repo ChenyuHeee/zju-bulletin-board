@@ -1,11 +1,16 @@
 {
-  "updated_at": "2026-06-19 08:40:26 CST",
+  "updated_at": "2026-06-20 08:31:52 CST",
   "colleges": [
     {
       "id": "sis",
       "name": "外国语学院",
       "source_url": "http://www.sis.zju.edu.cn/sischinese/12577/list.htm",
       "items": [
+        {
+          "title": "外国语学院关于2026届第一批本科毕业生电子离校单办理及双证领取的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0619/c12577a3180576/page.htm",
+          "date": ""
+        },
         {
           "title": "关于2022级英语专业本科毕业论文答辩分组安排的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0603/c12577a3172562/page.htm",
@@ -139,11 +144,6 @@
         {
           "title": "关于第二批“十四五”普通高等教育本科省级和国家级规划教材申报推荐结果公示的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0121/c12577a3129951/page.htm",
-          "date": ""
-        },
-        {
-          "title": "关于公布外国语学院2025-2026学年春夏学期转专业容量的通知",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0112/c12577a3127625/page.htm",
           "date": ""
         }
       ]
