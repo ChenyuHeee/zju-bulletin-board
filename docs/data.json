@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16 08:22:14 CST",
+  "updated_at": "2026-07-17 08:23:17 CST",
   "colleges": [
     {
       "id": "sis",
@@ -159,6 +159,11 @@
           "date": ""
         },
         {
+          "title": "喜报 | 计算机学院代表队蝉联ICT大赛中国挑战赛总冠军",
+          "url": "http://www.cs.zju.edu.cn/csen/2026/0716/c38564a3189384/page.htm",
+          "date": ""
+        },
+        {
           "title": "计算机学院举行2026届赴重点单位就业毕业生欢送会",
           "url": "http://www.cs.zju.edu.cn/csen/2026/0612/c38564a3178135/page.htm",
           "date": ""
@@ -271,11 +276,6 @@
         {
           "title": "计算机学院“机关有约&相约则通” 系列活动（第11期）顺利举行",
           "url": "http://www.cs.zju.edu.cn/csen/2025/1209/c38564a3117033/page.htm",
-          "date": ""
-        },
-        {
-          "title": "祝贺！我院唐华锦、杨易教授新当选IEEE Fellow！",
-          "url": "http://www.cs.zju.edu.cn/csen/2025/1205/c38564a3116160/page.htm",
           "date": ""
         }
       ],
