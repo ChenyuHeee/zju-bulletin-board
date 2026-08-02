@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01 08:23:46 CST",
+  "updated_at": "2026-08-02 08:24:22 CST",
   "colleges": [
     {
       "id": "sis",
@@ -287,6 +287,26 @@
       "source_url": "http://ckc.zju.edu.cn/54005/list.htm",
       "items": [
         {
+          "title": "浙江大学竺可桢学院混合班2026年招生简章",
+          "url": "http://ckc.zju.edu.cn/2026/0731/c54005a3192935/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院新农科实验班2026年招生简章",
+          "url": "http://ckc.zju.edu.cn/2026/0731/c54005a3192933/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院图灵班2026年招生简章",
+          "url": "http://ckc.zju.edu.cn/2026/0731/c54005a3192931/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院求是科学班2026年招生简章",
+          "url": "http://ckc.zju.edu.cn/2026/0731/c54005a3192926/page.htm",
+          "date": ""
+        },
+        {
           "title": "【毕业预审】关于2022级竺可桢学院学生毕业资格预审的通知",
           "url": "http://ckc.zju.edu.cn/2025/0922/c54005a3084381/page.htm",
           "date": ""
@@ -394,26 +414,6 @@
         {
           "title": "关于竺可桢学院复合型人才培养特色班2022年招生的通知",
           "url": "http://ckc.zju.edu.cn/2022/0310/c54005a2505445/page.htm",
-          "date": ""
-        },
-        {
-          "title": "关于浙江大学晨兴文化中国人才计划选拔的通知",
-          "url": "http://ckc.zju.edu.cn/2022/0309/c54005a2504439/page.htm",
-          "date": ""
-        },
-        {
-          "title": "关于竺可桢学院2020级创新与创业管理强化班招生的通知",
-          "url": "http://ckc.zju.edu.cn/2021/1008/c54005a2427994/page.htm",
-          "date": ""
-        },
-        {
-          "title": "2021级竺可桢学院学生选拔安排通知",
-          "url": "http://ckc.zju.edu.cn/2021/0814/c54005a2510310/page.htm",
-          "date": ""
-        },
-        {
-          "title": "浙江大学竺可桢学院求是科学班、神农班、智慧能源班、公共管理英才班2021年招生简章",
-          "url": "http://ckc.zju.edu.cn/2021/0726/c54005a2510311/page.htm",
           "date": ""
         }
       ]
