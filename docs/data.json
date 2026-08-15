@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14 08:15:45 CST",
+  "updated_at": "2026-08-15 08:06:40 CST",
   "colleges": [
     {
       "id": "sis",
@@ -287,6 +287,16 @@
       "source_url": "http://ckc.zju.edu.cn/54005/list.htm",
       "items": [
         {
+          "title": "浙江大学竺可桢学院2026级新生选拔安排",
+          "url": "http://ckc.zju.edu.cn/2026/0813/c54005a3194776/page.htm",
+          "date": ""
+        },
+        {
+          "title": "浙江大学竺可桢学院图灵班2026级新生选拔安排",
+          "url": "http://ckc.zju.edu.cn/2026/0813/c54005a3194778/page.htm",
+          "date": ""
+        },
+        {
           "title": "浙江大学竺可桢学院混合班2026年招生简章",
           "url": "http://ckc.zju.edu.cn/2026/0731/c54005a3192935/page.htm",
           "date": ""
@@ -404,16 +414,6 @@
         {
           "title": "浙江大学竺可桢学院求是科学班、应用生物科学（农学试验班）  2022年招生简章",
           "url": "http://ckc.zju.edu.cn/2022/0725/c54005a2605856/page.htm",
-          "date": ""
-        },
-        {
-          "title": "竺可桢学院关于开展2022年度大学生素质训练计划（SQTP）中期检查的通知",
-          "url": "http://ckc.zju.edu.cn/2022/0719/c54005a2604847/page.htm",
-          "date": ""
-        },
-        {
-          "title": "关于竺可桢学院复合型人才培养特色班2022年招生的通知",
-          "url": "http://ckc.zju.edu.cn/2022/0310/c54005a2505445/page.htm",
           "date": ""
         }
       ]
