@@ -1,11 +1,16 @@
 {
-  "updated_at": "2026-08-27 09:15:16 CST",
+  "updated_at": "2026-08-28 10:38:11 CST",
   "colleges": [
     {
       "id": "sis",
       "name": "外国语学院",
       "source_url": "http://www.sis.zju.edu.cn/sischinese/12577/list.htm",
       "items": [
+        {
+          "title": "外国语学院2023级学生学业成绩公示",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0828/c12577a3197240/page.htm",
+          "date": ""
+        },
         {
           "title": "关于2027年推荐优秀应届本科毕业生免试攻读研究生工作安排的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0825/c12577a3196894/page.htm",
@@ -139,11 +144,6 @@
         {
           "title": "外国语学院关于本科生未来学术新星项目推荐公示",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0424/c12577a3155935/page.htm",
-          "date": ""
-        },
-        {
-          "title": "关于外国语学院第六届本科生学术创新大会专题报告“从初稿到录用：期刊主编谈学术写作与发表”的...",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0422/c12577a3154687/page.htm",
           "date": ""
         }
       ]
