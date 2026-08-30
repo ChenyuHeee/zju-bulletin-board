@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29 08:10:29 CST",
+  "updated_at": "2026-08-30 08:12:36 CST",
   "colleges": [
     {
       "id": "sis",
@@ -159,6 +159,11 @@
           "date": ""
         },
         {
+          "title": "哈佛大学中国论坛代表团来访计算机学院",
+          "url": "http://www.cs.zju.edu.cn/csen/2026/0829/c38564a3197555/page.htm",
+          "date": ""
+        },
+        {
           "title": "创意穿出地球 ｜Venture D Vibe Coding 黑客松开启报名",
           "url": "http://www.cs.zju.edu.cn/csen/2026/0717/c38564a3189555/page.htm",
           "date": ""
@@ -271,11 +276,6 @@
         {
           "title": "全球冠军！浙大、交大、复旦联合战队*0xA勇夺BlackHat MEA CTF 2025亚洲首冠",
           "url": "http://www.cs.zju.edu.cn/csen/2025/1222/c38564a3122008/page.htm",
-          "date": ""
-        },
-        {
-          "title": "智联未来！这场盛会点亮脑机融合新坐标",
-          "url": "http://www.cs.zju.edu.cn/csen/2025/1222/c38564a3121987/page.htm",
           "date": ""
         }
       ],
