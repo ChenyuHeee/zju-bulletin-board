@@ -1,11 +1,16 @@
 {
-  "updated_at": "2026-09-02 08:11:51 CST",
+  "updated_at": "2026-09-03 08:11:37 CST",
   "colleges": [
     {
       "id": "sis",
       "name": "外国语学院",
       "source_url": "http://www.sis.zju.edu.cn/sischinese/12577/list.htm",
       "items": [
+        {
+          "title": "外国语学院2023级学生素质评价成绩公示",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0902/c12577a3198224/page.htm",
+          "date": ""
+        },
         {
           "title": "外国语学院2027年本科推免名额公示",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0901/c12577a3198044/page.htm",
@@ -139,11 +144,6 @@
         {
           "title": "关于核对2026届本科毕业生图像信息的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0430/c12577a3157516/page.htm",
-          "date": ""
-        },
-        {
-          "title": "关于公示外国语学院2026年度本科生科研训练立项等级的通知",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0427/c12577a3156185/page.htm",
           "date": ""
         }
       ]
