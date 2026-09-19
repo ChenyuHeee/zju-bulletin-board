@@ -1,11 +1,16 @@
 {
-  "updated_at": "2026-09-18 08:10:50 CST",
+  "updated_at": "2026-09-19 08:10:58 CST",
   "colleges": [
     {
       "id": "sis",
       "name": "外国语学院",
       "source_url": "http://www.sis.zju.edu.cn/sischinese/12577/list.htm",
       "items": [
+        {
+          "title": "关于2026-2027学年秋冬学期本科生转专业拟接收名单公示",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0918/c12577a3205220/page.htm",
+          "date": ""
+        },
         {
           "title": "关于2027届本科生毕业自审的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0909/c12577a3200347/page.htm",
@@ -140,11 +145,6 @@
           "title": "外国语学院关于申请2026届本科微辅修、辅修、双学位证书的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0513/c12577a3162210/page.htm",
           "date": ""
-        },
-        {
-          "title": "关于公布2026年外语类保送生主修专业预确认名单的通知",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0509/c12577a3160472/page.htm",
-          "date": ""
         }
       ]
     },
@@ -156,6 +156,11 @@
         {
           "title": "研究生导师",
           "url": "http://www.cs.zju.edu.cn/csen/2021/0915/c27006a2421689/page.htm",
+          "date": ""
+        },
+        {
+          "title": "哈佛大学中国论坛代表团来访计算机学院",
+          "url": "http://www.cs.zju.edu.cn/csen/2026/0829/c38564a3197555/page.htm",
           "date": ""
         },
         {
@@ -271,11 +276,6 @@
         {
           "title": "全球冠军！浙大、交大、复旦联合战队*0xA勇夺BlackHat MEA CTF 2025亚洲首冠",
           "url": "http://www.cs.zju.edu.cn/csen/2025/1222/c38564a3122008/page.htm",
-          "date": ""
-        },
-        {
-          "title": "智联未来！这场盛会点亮脑机融合新坐标",
-          "url": "http://www.cs.zju.edu.cn/csen/2025/1222/c38564a3121987/page.htm",
           "date": ""
         }
       ],
