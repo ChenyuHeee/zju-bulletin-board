@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 08:12:07 CST",
+  "updated_at": "2026-10-01 08:13:42 CST",
   "colleges": [
     {
       "id": "sis",
@@ -174,6 +174,11 @@
           "date": ""
         },
         {
+          "title": "2026 ACM中国图灵大会在杭州成功举办",
+          "url": "http://www.cs.zju.edu.cn/csen/2026/0930/c38564a3211133/page.htm",
+          "date": ""
+        },
+        {
           "title": "喜报 | 计算机学院代表队蝉联ICT大赛中国挑战赛总冠军",
           "url": "http://www.cs.zju.edu.cn/csen/2026/0716/c38564a3189384/page.htm",
           "date": ""
@@ -271,11 +276,6 @@
         {
           "title": "深耕导学之道，涵养育人温度——2025年度计算机科学与技术学院求是导师学校暨班主任、德育导师培训会顺利举行",
           "url": "http://www.cs.zju.edu.cn/csen/2025/1227/c38564a3123704/page.htm",
-          "date": ""
-        },
-        {
-          "title": "喜报| 学院首次在计算机系统顶会SC获得最佳学生论文提名",
-          "url": "http://www.cs.zju.edu.cn/csen/2025/1223/c38564a3122624/page.htm",
           "date": ""
         }
       ],
