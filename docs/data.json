@@ -1,11 +1,16 @@
 {
-  "updated_at": "2026-10-09 08:12:41 CST",
+  "updated_at": "2026-10-10 08:12:04 CST",
   "colleges": [
     {
       "id": "sis",
       "name": "外国语学院",
       "source_url": "http://www.sis.zju.edu.cn/sischinese/12577/list.htm",
       "items": [
+        {
+          "title": "关于2027届本科毕业生信息核对及图像拍摄的通知",
+          "url": "http://www.sis.zju.edu.cn/sischinese/2026/1009/c12577a3212300/page.htm",
+          "date": ""
+        },
         {
           "title": "关于第四届“外研社·国才杯”“理解当代中国”浙江大学大学生外语能力大赛英语笔译赛道赛事安排...",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/1008/c12577a3211996/page.htm",
@@ -139,11 +144,6 @@
         {
           "title": "关于2026届本科毕业论文信息核对的通知",
           "url": "http://www.sis.zju.edu.cn/sischinese/2026/0528/c12577a3167623/page.htm",
-          "date": ""
-        },
-        {
-          "title": "外国语学院2026届本科生本科毕业论文定稿（终稿）上交通知",
-          "url": "http://www.sis.zju.edu.cn/sischinese/2026/0528/c12577a3167603/page.htm",
           "date": ""
         }
       ]
